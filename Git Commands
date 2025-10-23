@@ -1,0 +1,22 @@
+# Documentation on using GitHub/ Git Commands
+
+# Shows file in file path (create file on VSCode first and save as to your Git folder)
+ls
+
+# Initializes empty repository on your file path
+git init
+
+# You can add and specify which file that's in the file path
+git add 
+git add . # Adds all files
+
+# Tells you where files are in the process such as if they are in the repository or commited
+git status
+
+# Create a snapshot/ message of the file you are committing
+git commit -m "" # command for Windows
+git commit -m " # command for Terminal, end with double quotes on next command line
+
+
+
+
