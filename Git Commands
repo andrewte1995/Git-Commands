@@ -14,8 +14,28 @@ git add . # Adds all files
 git status
 
 # Create a snapshot/ message of the file you are committing
-git commit -m "" # command for Windows
-git commit -m " # command for Terminal, end with double quotes on next command line
+git commit -m "*" # command for Windows
+git commit -m "* # command for Terminal, end with double quotes on next command line
+
+# Shows your hash special to your file(s) that you can use to copy and next step for git checkout if needed to add to the repository
+git log
+
+# Copy your hash to check for previous commit/ snapshot
+git checkout [your hash]
+
+# Goes to most previous commit
+git checkout master # Windows
+git checkout main # Terminal
+
+# Creates new branch to do your own work or change something on a certain file by using the hash from the file from git log
+git checkout -b [name of your branch] [your hash]
+
+# Merge your new branch to your master/ main branch. Still need to "git add" your added files/ branches then "git commit" command. Still need to save separate on GitHub Repo
+git merge [name of your branch]
+
+#
+
+
 
 
 
