@@ -33,7 +33,9 @@ git checkout -b [name of your branch] [your hash]
 # Merge your new branch to your master/ main branch. Still need to "git add" your added files/ branches then "git commit" command. Still need to save separate on GitHub Repo
 git merge [name of your branch]
 
-#
+# Create Repository on Git
+# Push an existing repo from the command line then commit after on Git
+git remote add origin https://github.com/andrewte1995/Git-Commands.git
 
 
 
